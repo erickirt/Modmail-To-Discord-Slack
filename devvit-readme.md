@@ -2,8 +2,7 @@
 
 A Devvit [(Reddit's Developer Platform)](https://developers.reddit.com/) app that instantly sends incoming and outgoing modmails from your subreddit's modmail to a Discord or Slack webhook. Sends the message, sender, participant information, &amp; other relevant information to the webhook payload.
 
-App Link: https://developers.reddit.com/apps/modmailtodiscord
-
+This app is open soure, the source code can be found here: [https://github.com/ni5arga/Modmail-To-Discord-Slack](https://github.com/ni5arga/Modmail-To-Discord-Slack).
 
 ## Screenshots
 
@@ -21,17 +20,15 @@ App Link: https://developers.reddit.com/apps/modmailtodiscord
 
 1. **Get Discord Webhook URL** : You'll need to generate a Discord Webhook URL from channel settings. You can learn how to get webhook URLs from [this guide](https://support.discord.com/hc/en-us/articles/228383668-Intro-to-Webhooks) or detailed instructions on how to generate Discord Webhook URL can be found below. Discord Webhook URLs look like this: `https://discord.com/api/webhooks/1234567880123/38823ax30320bx_d83289324Q`.
 
-<details>
-<summary> Instructions on How to Get Discord Webhook URL </summary>
+2. **Put The URL In Your App Settings** : After you've obtained the webhook URL, you'll need to put it in the app settings. App settings can be found at `https://developers.reddit.com/r/insert-your-subreddit-name-here/apps/modmailtodiscord/`. After putting the Webhook URL in the text-box - click on the Save Changes button.
+
+Instructions on How to Get Discord Webhook URL:
 
 1. **Create a Discord Webhook:** - Open or create a Discord server where you have the necessary permissions. - Go to the channel where you want the webhook to send messages. - Right-click on the channel name and select "Edit Channel."
 2. **Navigate to Integrations:** - In the channel settings, find the "Webhooks" option under the Integrations tab in the left-hand menu. - Click on "Webhooks" to access the webhook settings.
 3. **Create a New Webhook:** - Click the "Create Webhook" button. - Customize the webhook by giving it a name, setting the profile picture (optional), and choosing the channel where it will send messages. - Once configured, click the "Save" or "Create" button.
 4. **Copy the Webhook URL:** - After creating the webhook, you'll see a section with the webhook URL. - Click on the "Copy" button next to the webhook URL to save it to your clipboard.
 
-</details>
-
-2. **Put The URL In Your App Settings** : After you've obtained the webhook URL, you'll need to put it in the app settings. App settings can be found at `https://developers.reddit.com/r/insert-your-subreddit-name-here/apps/modmailtodiscord/`. After putting the Webhook URL in the text-box - click on the Save Changes button.
 
 ### Slack
 
@@ -68,6 +65,3 @@ The app sends all incoming and outgoing modmails from your subreddit's modmail t
 
 Feel free to contribute and improve this project. Pull requests and issues are always welcome.
 
-## License
-
-This source code is licensed under [MIT License](https://github.com/ni5arga/Modmail-To-Discord-Slack/blob/main/LICENSE).

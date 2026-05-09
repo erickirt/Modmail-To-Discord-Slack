@@ -1,0 +1,7 @@
+{
+  "name": "modmailtodiscord",
+  "blocks": {
+    "entry": "src/main.ts",
+    "triggers": ["onModMail"]
+  }
+}
